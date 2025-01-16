@@ -1,6 +1,7 @@
 /* Place CSS styles here */
 body {
-    color:rgb(164, 35, 128);
+    color:rgb(98, 30, 78);
     background-color:rgb(68, 136, 137);
     font: size 30px;
+    background-image: url(../img/pixel\ art.jpg);
 }
