@@ -1,7 +1,51 @@
 /* Place CSS styles here */
+html {
+    scroll-behavior: smooth;
+}
+
+.miku-bot-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.snow-angel {
+    border: 10px solid white;
+}
+
+.miku-hero {
+    background-image: url(../img/mikustack.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;;
+}
+
+.miku-block-text {
+    background-color: antiquewhite;
+    text-align: center;
+    font: size 60px;
+    margin: 20px;
+}
 body {
     color:rgb(98, 30, 78);
     background-color:rgb(68, 136, 137);
     font: size 30px;
     background-image: url(../img/pixel\ art.jpg);
+}
+
+.miku-heading {
+    text-align: center;
+}
+
+a {
+    color: blue;
+}
+
+a:hover{
+    color: rgb(178, 73, 73);
+}
+
+footer {
+    background-color:rgb(68, 136, 137);
+    font: size 50px;
+    padding: 20px;
+    text-align: center;
 }
