@@ -6,9 +6,10 @@ html {
 .miku-bot-container {
     max-width: 800px;
     margin: 0 auto;
+    text-align: justify;
 }
 .snow-angel {
-    border: 10px solid white;
+    border: 5px solid rgb(87, 132, 134);
 }
 
 .miku-hero {
@@ -33,6 +34,7 @@ body {
 
 .miku-heading {
     text-align: center;
+    font-size: 50px;
 }
 
 a {
@@ -41,6 +43,11 @@ a {
 
 a:hover{
     color: rgb(178, 73, 73);
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
 }
 
 footer {
