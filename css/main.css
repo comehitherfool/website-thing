@@ -9,7 +9,7 @@ html {
     text-align: justify;
 }
 .snow-angel {
-    border: 5px solid rgb(87, 132, 134);
+    border: 2px solid rgb(87, 132, 134);
 }
 
 .miku-hero {
@@ -30,6 +30,8 @@ body {
     background-color:rgb(68, 136, 137);
     font: size 30px;
     background-image: url(../img/pixel\ art.jpg);
+    font-family: "Geo", serif;
+    font-weight: 400;
 }
 
 .miku-heading {
@@ -45,10 +47,6 @@ a:hover{
     color: rgb(178, 73, 73);
 }
 
-p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: italic;
-}
 
 footer {
     background-color:rgb(68, 136, 137);
