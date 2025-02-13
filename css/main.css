@@ -1,4 +1,9 @@
 /* Place CSS styles here */
+.miku-row-img {
+    width: 100%; 
+    box-sizing: border-box; 
+  }
+
 html {
     scroll-behavior: smooth;
 }
@@ -38,6 +43,27 @@ body {
 .miku-heading {
     text-align: center;
     font-size: 50px;
+}
+
+.exercise-div {
+    width: 200px;
+    padding: 20px;
+    border: 5px rgb(0, 0, 0);
+    box-sizing: border-box;;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.miku-item-row {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
 }
 
 a {
